@@ -10,6 +10,7 @@
     End Sub
 
     Private Sub Prob3ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Prob3ToolStripMenuItem.Click
+        FormMC3.Show()
         Me.Hide()
     End Sub
 
