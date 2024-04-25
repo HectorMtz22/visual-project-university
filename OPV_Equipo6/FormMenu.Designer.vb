@@ -34,12 +34,13 @@ Partial Class FormMenu
         Me.lbl_nombre = New System.Windows.Forms.Label()
         Me.lbl_grupo = New System.Windows.Forms.Label()
         Me.btn_exit = New System.Windows.Forms.Button()
+        Me.ExamenOrdinarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExamenDeMedioCursoToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExamenDeMedioCursoToolStripMenuItem, Me.ExamenOrdinarioToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(650, 24)
@@ -56,31 +57,31 @@ Partial Class FormMenu
         'Prob1ToolStripMenuItem
         '
         Me.Prob1ToolStripMenuItem.Name = "Prob1ToolStripMenuItem"
-        Me.Prob1ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
+        Me.Prob1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Prob1ToolStripMenuItem.Text = "Prob 1"
         '
         'Prob2ToolStripMenuItem
         '
         Me.Prob2ToolStripMenuItem.Name = "Prob2ToolStripMenuItem"
-        Me.Prob2ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
+        Me.Prob2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Prob2ToolStripMenuItem.Text = "Prob 2"
         '
         'Prob3ToolStripMenuItem
         '
         Me.Prob3ToolStripMenuItem.Name = "Prob3ToolStripMenuItem"
-        Me.Prob3ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
+        Me.Prob3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Prob3ToolStripMenuItem.Text = "Prob 3"
         '
         'Prob4ToolStripMenuItem
         '
         Me.Prob4ToolStripMenuItem.Name = "Prob4ToolStripMenuItem"
-        Me.Prob4ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
+        Me.Prob4ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Prob4ToolStripMenuItem.Text = "Prob 4"
         '
         'Prob5ToolStripMenuItem
         '
         Me.Prob5ToolStripMenuItem.Name = "Prob5ToolStripMenuItem"
-        Me.Prob5ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
+        Me.Prob5ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Prob5ToolStripMenuItem.Text = "Prob 5"
         '
         'lbl_menu
@@ -133,6 +134,12 @@ Partial Class FormMenu
         Me.btn_exit.Text = "Salir"
         Me.btn_exit.UseVisualStyleBackColor = True
         '
+        'ExamenOrdinarioToolStripMenuItem
+        '
+        Me.ExamenOrdinarioToolStripMenuItem.Name = "ExamenOrdinarioToolStripMenuItem"
+        Me.ExamenOrdinarioToolStripMenuItem.Size = New System.Drawing.Size(114, 20)
+        Me.ExamenOrdinarioToolStripMenuItem.Text = "Examen Ordinario"
+        '
         'FormMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -166,4 +173,5 @@ Partial Class FormMenu
     Friend WithEvents lbl_nombre As Label
     Friend WithEvents lbl_grupo As Label
     Friend WithEvents btn_exit As Button
+    Friend WithEvents ExamenOrdinarioToolStripMenuItem As ToolStripMenuItem
 End Class

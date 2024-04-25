@@ -1,5 +1,6 @@
 ﻿Public Class FormMenu
     Private Sub Prob1ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Prob1ToolStripMenuItem.Click
+        FormMC1.Show()
         Me.Hide()
     End Sub
 
