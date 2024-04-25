@@ -20,11 +20,13 @@
     End Sub
 
     Private Sub Prob5ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Prob5ToolStripMenuItem.Click
+        FormMC5.Show()
         Me.Hide()
     End Sub
 
     Private Sub btn_exit_click(sender As Object, e As EventArgs) Handles btn_exit.Click
         ' Asi reutilizo el form anterior
+        FormLogin.Show()
         Me.Close()
     End Sub
 End Class
