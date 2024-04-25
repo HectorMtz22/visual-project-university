@@ -98,6 +98,12 @@
     <Compile Include="FormMC3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormMC4.Designer.vb">
+      <DependentUpon>FormMC4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMC4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormMenu.Designer.vb">
       <DependentUpon>FormMenu.vb</DependentUpon>
     </Compile>

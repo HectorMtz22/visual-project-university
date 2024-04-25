@@ -15,6 +15,7 @@
     End Sub
 
     Private Sub Prob4ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Prob4ToolStripMenuItem.Click
+        FormMC4.Show()
         Me.Hide()
     End Sub
 
