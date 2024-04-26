@@ -44,4 +44,9 @@
         FormORD3.Show()
         Me.Hide()
     End Sub
+
+    Private Sub GestiónDeContactosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GestiónDeContactosToolStripMenuItem.Click
+        FormORD4.Show()
+        Me.Hide()
+    End Sub
 End Class

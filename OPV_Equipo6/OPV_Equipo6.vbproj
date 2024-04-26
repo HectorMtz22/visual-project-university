@@ -134,6 +134,12 @@
     <Compile Include="FormORD3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormORD4.Designer.vb">
+      <DependentUpon>FormORD4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormORD4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
