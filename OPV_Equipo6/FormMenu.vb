@@ -29,4 +29,9 @@
         FormLogin.Show()
         Me.Close()
     End Sub
+
+    Private Sub CalculadoraToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculadoraToolStripMenuItem.Click
+        FormORD1.Show()
+        Me.Hide()
+    End Sub
 End Class

@@ -29,18 +29,24 @@ Partial Class FormMenu
         Me.Prob3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Prob4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Prob5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExamenOrdinarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CalculadoraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GestiónDeTareasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GestiónDeContactosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BaseDeDatosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PIAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.lbl_menu = New System.Windows.Forms.Label()
         Me.lbl_mat = New System.Windows.Forms.Label()
         Me.lbl_nombre = New System.Windows.Forms.Label()
         Me.lbl_grupo = New System.Windows.Forms.Label()
         Me.btn_exit = New System.Windows.Forms.Button()
-        Me.ExamenOrdinarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExamenDeMedioCursoToolStripMenuItem, Me.ExamenOrdinarioToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExamenDeMedioCursoToolStripMenuItem, Me.ExamenOrdinarioToolStripMenuItem, Me.PIAToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(650, 24)
@@ -57,32 +63,75 @@ Partial Class FormMenu
         'Prob1ToolStripMenuItem
         '
         Me.Prob1ToolStripMenuItem.Name = "Prob1ToolStripMenuItem"
-        Me.Prob1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Prob1ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.Prob1ToolStripMenuItem.Text = "Prob 1"
         '
         'Prob2ToolStripMenuItem
         '
         Me.Prob2ToolStripMenuItem.Name = "Prob2ToolStripMenuItem"
-        Me.Prob2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Prob2ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.Prob2ToolStripMenuItem.Text = "Prob 2"
         '
         'Prob3ToolStripMenuItem
         '
         Me.Prob3ToolStripMenuItem.Name = "Prob3ToolStripMenuItem"
-        Me.Prob3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Prob3ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.Prob3ToolStripMenuItem.Text = "Prob 3"
         '
         'Prob4ToolStripMenuItem
         '
         Me.Prob4ToolStripMenuItem.Name = "Prob4ToolStripMenuItem"
-        Me.Prob4ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Prob4ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.Prob4ToolStripMenuItem.Text = "Prob 4"
         '
         'Prob5ToolStripMenuItem
         '
         Me.Prob5ToolStripMenuItem.Name = "Prob5ToolStripMenuItem"
-        Me.Prob5ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Prob5ToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.Prob5ToolStripMenuItem.Text = "Prob 5"
+        '
+        'ExamenOrdinarioToolStripMenuItem
+        '
+        Me.ExamenOrdinarioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculadoraToolStripMenuItem, Me.ToolStripMenuItem2, Me.GestiónDeTareasToolStripMenuItem, Me.GestiónDeContactosToolStripMenuItem, Me.BaseDeDatosToolStripMenuItem})
+        Me.ExamenOrdinarioToolStripMenuItem.Name = "ExamenOrdinarioToolStripMenuItem"
+        Me.ExamenOrdinarioToolStripMenuItem.Size = New System.Drawing.Size(114, 20)
+        Me.ExamenOrdinarioToolStripMenuItem.Text = "Examen Ordinario"
+        '
+        'CalculadoraToolStripMenuItem
+        '
+        Me.CalculadoraToolStripMenuItem.Name = "CalculadoraToolStripMenuItem"
+        Me.CalculadoraToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.CalculadoraToolStripMenuItem.Text = "1. Calculadora"
+        '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(204, 22)
+        Me.ToolStripMenuItem2.Text = "2. Unidades de medición"
+        '
+        'GestiónDeTareasToolStripMenuItem
+        '
+        Me.GestiónDeTareasToolStripMenuItem.Name = "GestiónDeTareasToolStripMenuItem"
+        Me.GestiónDeTareasToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.GestiónDeTareasToolStripMenuItem.Text = "3. Gestión de Tareas"
+        '
+        'GestiónDeContactosToolStripMenuItem
+        '
+        Me.GestiónDeContactosToolStripMenuItem.Name = "GestiónDeContactosToolStripMenuItem"
+        Me.GestiónDeContactosToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.GestiónDeContactosToolStripMenuItem.Text = "4. Gestión de Contactos"
+        '
+        'BaseDeDatosToolStripMenuItem
+        '
+        Me.BaseDeDatosToolStripMenuItem.Name = "BaseDeDatosToolStripMenuItem"
+        Me.BaseDeDatosToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.BaseDeDatosToolStripMenuItem.Text = "5. Base de datos"
+        '
+        'PIAToolStripMenuItem
+        '
+        Me.PIAToolStripMenuItem.Name = "PIAToolStripMenuItem"
+        Me.PIAToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.PIAToolStripMenuItem.Text = "PIA"
         '
         'lbl_menu
         '
@@ -134,12 +183,6 @@ Partial Class FormMenu
         Me.btn_exit.Text = "Salir"
         Me.btn_exit.UseVisualStyleBackColor = True
         '
-        'ExamenOrdinarioToolStripMenuItem
-        '
-        Me.ExamenOrdinarioToolStripMenuItem.Name = "ExamenOrdinarioToolStripMenuItem"
-        Me.ExamenOrdinarioToolStripMenuItem.Size = New System.Drawing.Size(114, 20)
-        Me.ExamenOrdinarioToolStripMenuItem.Text = "Examen Ordinario"
-        '
         'FormMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -174,4 +217,10 @@ Partial Class FormMenu
     Friend WithEvents lbl_grupo As Label
     Friend WithEvents btn_exit As Button
     Friend WithEvents ExamenOrdinarioToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CalculadoraToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PIAToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents GestiónDeTareasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents GestiónDeContactosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BaseDeDatosToolStripMenuItem As ToolStripMenuItem
 End Class
