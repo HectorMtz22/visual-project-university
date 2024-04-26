@@ -1,16 +1,16 @@
 ﻿Public Class FormLogin
     Private Sub btn_mostrar_pass_Click(sender As Object, e As EventArgs) Handles btn_mostrar_pass.Click
-        MsgBox("Usuario: Hector" + vbCrLf + "Contraseña: 1897759")
+        MsgBox("Usuario: Equipo6" + vbCrLf + "Contraseña: 1897759")
     End Sub
 
     Private Sub btn_aceptar_Click(sender As Object, e As EventArgs) Handles btn_aceptar.Click
-        ' Usuario: Hector
+        ' Usuario: Equipo6
         ' Contraseña: 1897759
 
         Dim user As String = txt_user.Text
         Dim pass As String = txt_password.Text
 
-        If Not user.Equals("Hector") Or Not pass.Equals("1897759") Then
+        If Not user.Equals("Equipo6") Or Not pass.Equals("1897759") Then
             MsgBox("Inicio de sesión incorrecto, intenta de nuevo...")
             Return
         End If
