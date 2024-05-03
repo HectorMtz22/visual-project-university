@@ -37,11 +37,10 @@ Partial Class FormMenu
         Me.BaseDeDatosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PIAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.lbl_menu = New System.Windows.Forms.Label()
-        Me.lbl_mat = New System.Windows.Forms.Label()
-        Me.lbl_nombre = New System.Windows.Forms.Label()
-        Me.lbl_grupo = New System.Windows.Forms.Label()
         Me.btn_exit = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -49,7 +48,7 @@ Partial Class FormMenu
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExamenDeMedioCursoToolStripMenuItem, Me.ExamenOrdinarioToolStripMenuItem, Me.PIAToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(650, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(858, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -139,66 +138,44 @@ Partial Class FormMenu
         Me.lbl_menu.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_menu.Location = New System.Drawing.Point(212, 53)
         Me.lbl_menu.Name = "lbl_menu"
-        Me.lbl_menu.Size = New System.Drawing.Size(186, 29)
+        Me.lbl_menu.Size = New System.Drawing.Size(0, 29)
         Me.lbl_menu.TabIndex = 1
-        Me.lbl_menu.Text = "Menú Principal"
-        '
-        'lbl_mat
-        '
-        Me.lbl_mat.AutoSize = True
-        Me.lbl_mat.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_mat.Location = New System.Drawing.Point(70, 138)
-        Me.lbl_mat.Name = "lbl_mat"
-        Me.lbl_mat.Size = New System.Drawing.Size(215, 27)
-        Me.lbl_mat.TabIndex = 2
-        Me.lbl_mat.Text = "Matrícula: 1897759"
-        '
-        'lbl_nombre
-        '
-        Me.lbl_nombre.AutoSize = True
-        Me.lbl_nombre.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_nombre.Location = New System.Drawing.Point(70, 186)
-        Me.lbl_nombre.Name = "lbl_nombre"
-        Me.lbl_nombre.Size = New System.Drawing.Size(255, 27)
-        Me.lbl_nombre.TabIndex = 3
-        Me.lbl_nombre.Text = "Nombre: Héctor Flores"
-        '
-        'lbl_grupo
-        '
-        Me.lbl_grupo.AutoSize = True
-        Me.lbl_grupo.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_grupo.Location = New System.Drawing.Point(70, 238)
-        Me.lbl_grupo.Name = "lbl_grupo"
-        Me.lbl_grupo.Size = New System.Drawing.Size(133, 27)
-        Me.lbl_grupo.TabIndex = 4
-        Me.lbl_grupo.Text = "Grupo: 009"
         '
         'btn_exit
         '
         Me.btn_exit.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_exit.Location = New System.Drawing.Point(466, 238)
+        Me.btn_exit.Location = New System.Drawing.Point(643, 410)
         Me.btn_exit.Name = "btn_exit"
         Me.btn_exit.Size = New System.Drawing.Size(144, 33)
-        Me.btn_exit.TabIndex = 5
+        Me.btn_exit.TabIndex = 1
         Me.btn_exit.Text = "Salir"
         Me.btn_exit.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.OPV_Equipo6.My.Resources.Resources.portada
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 27)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(858, 802)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
         '
         'FormMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(650, 310)
+        Me.ClientSize = New System.Drawing.Size(858, 822)
         Me.Controls.Add(Me.btn_exit)
-        Me.Controls.Add(Me.lbl_grupo)
-        Me.Controls.Add(Me.lbl_nombre)
-        Me.Controls.Add(Me.lbl_mat)
         Me.Controls.Add(Me.lbl_menu)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "FormMenu"
         Me.Text = "Examen de Medio Curso"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -212,9 +189,6 @@ Partial Class FormMenu
     Friend WithEvents Prob4ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Prob5ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents lbl_menu As Label
-    Friend WithEvents lbl_mat As Label
-    Friend WithEvents lbl_nombre As Label
-    Friend WithEvents lbl_grupo As Label
     Friend WithEvents btn_exit As Button
     Friend WithEvents ExamenOrdinarioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CalculadoraToolStripMenuItem As ToolStripMenuItem
@@ -223,4 +197,5 @@ Partial Class FormMenu
     Friend WithEvents GestiónDeTareasToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents GestiónDeContactosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BaseDeDatosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
