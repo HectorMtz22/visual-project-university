@@ -29,7 +29,7 @@ Partial Class FormORD3
         Me.btncompletar = New System.Windows.Forms.Button()
         Me.lsttareas = New System.Windows.Forms.ListBox()
         Me.txttareas = New System.Windows.Forms.TextBox()
-        Me.btnmenu = New System.Windows.Forms.Button()
+        Me.btn_menu = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -101,22 +101,22 @@ Partial Class FormORD3
         Me.txttareas.Size = New System.Drawing.Size(262, 35)
         Me.txttareas.TabIndex = 6
         '
-        'btnmenu
+        'btn_menu
         '
-        Me.btnmenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnmenu.Location = New System.Drawing.Point(540, 354)
-        Me.btnmenu.Name = "btnmenu"
-        Me.btnmenu.Size = New System.Drawing.Size(144, 31)
-        Me.btnmenu.TabIndex = 15
-        Me.btnmenu.Text = "Menú principal"
-        Me.btnmenu.UseVisualStyleBackColor = True
+        Me.btn_menu.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_menu.Location = New System.Drawing.Point(540, 354)
+        Me.btn_menu.Name = "btn_menu"
+        Me.btn_menu.Size = New System.Drawing.Size(144, 31)
+        Me.btn_menu.TabIndex = 15
+        Me.btn_menu.Text = "Menú principal"
+        Me.btn_menu.UseVisualStyleBackColor = True
         '
         'FormORD3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(717, 450)
-        Me.Controls.Add(Me.btnmenu)
+        Me.Controls.Add(Me.btn_menu)
         Me.Controls.Add(Me.txttareas)
         Me.Controls.Add(Me.lsttareas)
         Me.Controls.Add(Me.btncompletar)
@@ -138,5 +138,5 @@ Partial Class FormORD3
     Friend WithEvents btncompletar As Button
     Friend WithEvents lsttareas As ListBox
     Friend WithEvents txttareas As TextBox
-    Friend WithEvents btnmenu As Button
+    Friend WithEvents btn_menu As Button
 End Class
