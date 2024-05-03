@@ -49,4 +49,9 @@
         FormORD4.Show()
         Me.Hide()
     End Sub
+
+    Private Sub BaseDeDatosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BaseDeDatosToolStripMenuItem.Click
+        FormORD5.Show()
+        Me.Hide()
+    End Sub
 End Class

@@ -140,6 +140,12 @@
     <Compile Include="FormORD4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormORD5.Designer.vb">
+      <DependentUpon>FormORD5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormORD5.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -163,6 +169,9 @@
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormORD1.resx">
+      <DependentUpon>FormORD1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormORD2.resx">
       <DependentUpon>FormORD2.vb</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +193,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hecker.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

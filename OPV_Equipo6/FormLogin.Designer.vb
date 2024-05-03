@@ -29,6 +29,8 @@ Partial Class FormLogin
         Me.lbl_titulo = New System.Windows.Forms.Label()
         Me.lbl_pass = New System.Windows.Forms.Label()
         Me.txt_password = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btn_mostrar_pass
@@ -99,11 +101,22 @@ Partial Class FormLogin
         Me.txt_password.Size = New System.Drawing.Size(159, 29)
         Me.txt_password.TabIndex = 11
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.OPV_Equipo6.My.Resources.Resources.hecker
+        Me.PictureBox1.Location = New System.Drawing.Point(37, 106)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(181, 184)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox1.TabIndex = 14
+        Me.PictureBox1.TabStop = False
+        '
         'FormLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(612, 371)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.txt_password)
         Me.Controls.Add(Me.lbl_pass)
         Me.Controls.Add(Me.btn_mostrar_pass)
@@ -113,6 +126,7 @@ Partial Class FormLogin
         Me.Controls.Add(Me.lbl_titulo)
         Me.Name = "FormLogin"
         Me.Text = "Inicio de Sesion"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -125,4 +139,5 @@ Partial Class FormLogin
     Friend WithEvents lbl_titulo As Label
     Friend WithEvents lbl_pass As Label
     Friend WithEvents txt_password As TextBox
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
