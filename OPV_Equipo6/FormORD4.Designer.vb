@@ -34,32 +34,38 @@ Partial Class FormORD4
         Me.btnlimpiar = New System.Windows.Forms.Button()
         Me.lstcontactos = New System.Windows.Forms.ListBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.btnmenu = New System.Windows.Forms.Button()
+        Me.btn_menu = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txtnombre
         '
-        Me.txtnombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnombre.BackColor = System.Drawing.SystemColors.Window
+        Me.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtnombre.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtnombre.Location = New System.Drawing.Point(112, 73)
         Me.txtnombre.Multiline = True
         Me.txtnombre.Name = "txtnombre"
-        Me.txtnombre.Size = New System.Drawing.Size(149, 30)
+        Me.txtnombre.Size = New System.Drawing.Size(298, 30)
         Me.txtnombre.TabIndex = 0
         '
         'txttelefono
         '
-        Me.txttelefono.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txttelefono.BackColor = System.Drawing.SystemColors.Window
+        Me.txttelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txttelefono.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txttelefono.Location = New System.Drawing.Point(112, 115)
         Me.txttelefono.Name = "txttelefono"
-        Me.txttelefono.Size = New System.Drawing.Size(149, 29)
+        Me.txttelefono.Size = New System.Drawing.Size(298, 32)
         Me.txttelefono.TabIndex = 1
         '
         'txtbuscar
         '
-        Me.txtbuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtbuscar.Location = New System.Drawing.Point(152, 169)
+        Me.txtbuscar.BackColor = System.Drawing.SystemColors.Window
+        Me.txtbuscar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtbuscar.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbuscar.Location = New System.Drawing.Point(90, 192)
         Me.txtbuscar.Name = "txtbuscar"
-        Me.txtbuscar.Size = New System.Drawing.Size(149, 29)
+        Me.txtbuscar.Size = New System.Drawing.Size(264, 32)
         Me.txtbuscar.TabIndex = 2
         '
         'Label1
@@ -86,7 +92,7 @@ Partial Class FormORD4
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(50, 169)
+        Me.Label3.Location = New System.Drawing.Point(10, 195)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(74, 24)
         Me.Label3.TabIndex = 5
@@ -95,7 +101,7 @@ Partial Class FormORD4
         'btnagregar
         '
         Me.btnagregar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnagregar.Location = New System.Drawing.Point(467, 64)
+        Me.btnagregar.Location = New System.Drawing.Point(479, 72)
         Me.btnagregar.Name = "btnagregar"
         Me.btnagregar.Size = New System.Drawing.Size(89, 33)
         Me.btnagregar.TabIndex = 6
@@ -105,7 +111,7 @@ Partial Class FormORD4
         'btnbuscar
         '
         Me.btnbuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnbuscar.Location = New System.Drawing.Point(466, 103)
+        Me.btnbuscar.Location = New System.Drawing.Point(384, 192)
         Me.btnbuscar.Name = "btnbuscar"
         Me.btnbuscar.Size = New System.Drawing.Size(89, 33)
         Me.btnbuscar.TabIndex = 7
@@ -115,7 +121,7 @@ Partial Class FormORD4
         'btneliminar
         '
         Me.btneliminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btneliminar.Location = New System.Drawing.Point(466, 142)
+        Me.btneliminar.Location = New System.Drawing.Point(479, 119)
         Me.btneliminar.Name = "btneliminar"
         Me.btneliminar.Size = New System.Drawing.Size(89, 33)
         Me.btneliminar.TabIndex = 8
@@ -125,7 +131,7 @@ Partial Class FormORD4
         'btnlimpiar
         '
         Me.btnlimpiar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnlimpiar.Location = New System.Drawing.Point(466, 181)
+        Me.btnlimpiar.Location = New System.Drawing.Point(479, 192)
         Me.btnlimpiar.Name = "btnlimpiar"
         Me.btnlimpiar.Size = New System.Drawing.Size(89, 33)
         Me.btnlimpiar.TabIndex = 9
@@ -134,40 +140,43 @@ Partial Class FormORD4
         '
         'lstcontactos
         '
-        Me.lstcontactos.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lstcontactos.BackColor = System.Drawing.SystemColors.Window
+        Me.lstcontactos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lstcontactos.Font = New System.Drawing.Font("Arial Narrow", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lstcontactos.FormattingEnabled = True
-        Me.lstcontactos.ItemHeight = 24
-        Me.lstcontactos.Location = New System.Drawing.Point(54, 220)
+        Me.lstcontactos.ItemHeight = 25
+        Me.lstcontactos.Location = New System.Drawing.Point(16, 241)
         Me.lstcontactos.Name = "lstcontactos"
-        Me.lstcontactos.Size = New System.Drawing.Size(485, 172)
+        Me.lstcontactos.Size = New System.Drawing.Size(552, 177)
         Me.lstcontactos.TabIndex = 10
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(184, 31)
+        Me.Label4.Location = New System.Drawing.Point(187, 18)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(244, 29)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Gestionar contactos"
         '
-        'btnmenu
+        'btn_menu
         '
-        Me.btnmenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnmenu.Location = New System.Drawing.Point(227, 407)
-        Me.btnmenu.Name = "btnmenu"
-        Me.btnmenu.Size = New System.Drawing.Size(144, 31)
-        Me.btnmenu.TabIndex = 15
-        Me.btnmenu.Text = "Menú principal"
-        Me.btnmenu.UseVisualStyleBackColor = True
+        Me.btn_menu.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_menu.Location = New System.Drawing.Point(223, 440)
+        Me.btn_menu.Name = "btn_menu"
+        Me.btn_menu.Size = New System.Drawing.Size(144, 31)
+        Me.btn_menu.TabIndex = 15
+        Me.btn_menu.Text = "Menú principal"
+        Me.btn_menu.UseVisualStyleBackColor = True
         '
         'FormORD4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(596, 450)
-        Me.Controls.Add(Me.btnmenu)
+        Me.BackColor = System.Drawing.Color.GhostWhite
+        Me.ClientSize = New System.Drawing.Size(593, 499)
+        Me.Controls.Add(Me.btn_menu)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lstcontactos)
         Me.Controls.Add(Me.btnlimpiar)
@@ -199,5 +208,5 @@ Partial Class FormORD4
     Friend WithEvents btnlimpiar As Button
     Friend WithEvents lstcontactos As ListBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents btnmenu As Button
+    Friend WithEvents btn_menu As Button
 End Class

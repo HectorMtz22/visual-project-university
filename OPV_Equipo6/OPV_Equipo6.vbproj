@@ -178,6 +178,9 @@
     <EmbeddedResource Include="FormORD3.resx">
       <DependentUpon>FormORD3.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormORD4.resx">
+      <DependentUpon>FormORD4.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
