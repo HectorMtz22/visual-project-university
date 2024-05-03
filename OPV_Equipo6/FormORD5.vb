@@ -1,5 +1,5 @@
 ﻿Public Class FormORD5
-    Private Class Estudiante
+    Public Class Estudiante
         Public Property Matricula As String
         Public Property Nombre As String
         Public Property Edad As Integer
@@ -7,7 +7,10 @@
         Public Property Escolaridad As String
     End Class
 
+
+    ' crea una lista de estudiantes
     Private estudiantes As New List(Of Estudiante)()
+
     Private Sub LimpiarCampos()
         TxtMatricula.Clear()
         TxtNombre.Clear()
@@ -118,5 +121,10 @@
         CmbEscolaridad.SelectedIndex = 0
 
 
+    End Sub
+
+    Private Sub btn_menu_Click(sender As Object, e As EventArgs) Handles btn_menu.Click
+        FormMenu.Show()
+        Me.Hide()
     End Sub
 End Class
