@@ -30,13 +30,14 @@ Partial Class FormORD3
         Me.lsttareas = New System.Windows.Forms.ListBox()
         Me.txttareas = New System.Windows.Forms.TextBox()
         Me.btn_menu = New System.Windows.Forms.Button()
+        Me.lbl_lista = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(245, 9)
+        Me.Label1.Location = New System.Drawing.Point(228, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(205, 29)
         Me.Label1.TabIndex = 0
@@ -48,14 +49,14 @@ Partial Class FormORD3
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(35, 50)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(80, 24)
+        Me.Label2.Size = New System.Drawing.Size(217, 24)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Tareas:"
+        Me.Label2.Text = "Agregar Nueva Tarea:"
         '
         'btnagregar
         '
         Me.btnagregar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnagregar.Location = New System.Drawing.Point(580, 50)
+        Me.btnagregar.Location = New System.Drawing.Point(523, 77)
         Me.btnagregar.Name = "btnagregar"
         Me.btnagregar.Size = New System.Drawing.Size(104, 39)
         Me.btnagregar.TabIndex = 2
@@ -65,7 +66,7 @@ Partial Class FormORD3
         'btneliminar
         '
         Me.btneliminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btneliminar.Location = New System.Drawing.Point(580, 95)
+        Me.btneliminar.Location = New System.Drawing.Point(523, 189)
         Me.btneliminar.Name = "btneliminar"
         Me.btneliminar.Size = New System.Drawing.Size(104, 39)
         Me.btneliminar.TabIndex = 3
@@ -75,7 +76,7 @@ Partial Class FormORD3
         'btncompletar
         '
         Me.btncompletar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btncompletar.Location = New System.Drawing.Point(580, 140)
+        Me.btncompletar.Location = New System.Drawing.Point(523, 242)
         Me.btncompletar.Name = "btncompletar"
         Me.btncompletar.Size = New System.Drawing.Size(104, 37)
         Me.btncompletar.TabIndex = 4
@@ -87,7 +88,7 @@ Partial Class FormORD3
         Me.lsttareas.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lsttareas.FormattingEnabled = True
         Me.lsttareas.ItemHeight = 24
-        Me.lsttareas.Location = New System.Drawing.Point(39, 128)
+        Me.lsttareas.Location = New System.Drawing.Point(39, 185)
         Me.lsttareas.Name = "lsttareas"
         Me.lsttareas.Size = New System.Drawing.Size(460, 292)
         Me.lsttareas.TabIndex = 5
@@ -98,24 +99,36 @@ Partial Class FormORD3
         Me.txttareas.Location = New System.Drawing.Point(39, 77)
         Me.txttareas.Multiline = True
         Me.txttareas.Name = "txttareas"
-        Me.txttareas.Size = New System.Drawing.Size(262, 35)
+        Me.txttareas.Size = New System.Drawing.Size(460, 35)
         Me.txttareas.TabIndex = 6
         '
         'btn_menu
         '
         Me.btn_menu.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_menu.Location = New System.Drawing.Point(540, 354)
+        Me.btn_menu.Location = New System.Drawing.Point(523, 416)
         Me.btn_menu.Name = "btn_menu"
-        Me.btn_menu.Size = New System.Drawing.Size(144, 31)
+        Me.btn_menu.Size = New System.Drawing.Size(104, 61)
         Me.btn_menu.TabIndex = 15
         Me.btn_menu.Text = "Menú principal"
         Me.btn_menu.UseVisualStyleBackColor = True
+        '
+        'lbl_lista
+        '
+        Me.lbl_lista.AutoSize = True
+        Me.lbl_lista.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_lista.Location = New System.Drawing.Point(35, 158)
+        Me.lbl_lista.Name = "lbl_lista"
+        Me.lbl_lista.Size = New System.Drawing.Size(158, 24)
+        Me.lbl_lista.TabIndex = 16
+        Me.lbl_lista.Text = "Lista de Tareas:"
         '
         'FormORD3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(717, 450)
+        Me.BackColor = System.Drawing.Color.YellowGreen
+        Me.ClientSize = New System.Drawing.Size(665, 520)
+        Me.Controls.Add(Me.lbl_lista)
         Me.Controls.Add(Me.btn_menu)
         Me.Controls.Add(Me.txttareas)
         Me.Controls.Add(Me.lsttareas)
@@ -139,4 +152,5 @@ Partial Class FormORD3
     Friend WithEvents lsttareas As ListBox
     Friend WithEvents txttareas As TextBox
     Friend WithEvents btn_menu As Button
+    Friend WithEvents lbl_lista As Label
 End Class

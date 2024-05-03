@@ -35,37 +35,41 @@ Partial Class FormLogin
         '
         'btn_mostrar_pass
         '
+        Me.btn_mostrar_pass.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btn_mostrar_pass.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_mostrar_pass.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_mostrar_pass.Location = New System.Drawing.Point(327, 317)
+        Me.btn_mostrar_pass.Location = New System.Drawing.Point(316, 300)
         Me.btn_mostrar_pass.Name = "btn_mostrar_pass"
         Me.btn_mostrar_pass.Size = New System.Drawing.Size(266, 33)
         Me.btn_mostrar_pass.TabIndex = 13
         Me.btn_mostrar_pass.Text = "Olvidaste tu contraseña?"
-        Me.btn_mostrar_pass.UseVisualStyleBackColor = True
+        Me.btn_mostrar_pass.UseVisualStyleBackColor = False
         '
         'btn_aceptar
         '
+        Me.btn_aceptar.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btn_aceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_aceptar.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_aceptar.Location = New System.Drawing.Point(393, 249)
+        Me.btn_aceptar.Location = New System.Drawing.Point(438, 240)
         Me.btn_aceptar.Name = "btn_aceptar"
         Me.btn_aceptar.Size = New System.Drawing.Size(144, 33)
         Me.btn_aceptar.TabIndex = 12
         Me.btn_aceptar.Text = "Ingresar"
-        Me.btn_aceptar.UseVisualStyleBackColor = True
+        Me.btn_aceptar.UseVisualStyleBackColor = False
         '
         'txt_user
         '
         Me.txt_user.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_user.Location = New System.Drawing.Point(405, 123)
+        Me.txt_user.Location = New System.Drawing.Point(394, 106)
         Me.txt_user.Name = "txt_user"
-        Me.txt_user.Size = New System.Drawing.Size(159, 29)
+        Me.txt_user.Size = New System.Drawing.Size(188, 29)
         Me.txt_user.TabIndex = 10
         '
         'lbl_user
         '
         Me.lbl_user.AutoSize = True
         Me.lbl_user.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_user.Location = New System.Drawing.Point(235, 125)
+        Me.lbl_user.Location = New System.Drawing.Point(237, 106)
         Me.lbl_user.Name = "lbl_user"
         Me.lbl_user.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.lbl_user.Size = New System.Drawing.Size(94, 27)
@@ -86,7 +90,7 @@ Partial Class FormLogin
         '
         Me.lbl_pass.AutoSize = True
         Me.lbl_pass.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_pass.Location = New System.Drawing.Point(235, 179)
+        Me.lbl_pass.Location = New System.Drawing.Point(237, 160)
         Me.lbl_pass.Name = "lbl_pass"
         Me.lbl_pass.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.lbl_pass.Size = New System.Drawing.Size(136, 27)
@@ -96,9 +100,9 @@ Partial Class FormLogin
         'txt_password
         '
         Me.txt_password.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_password.Location = New System.Drawing.Point(405, 177)
+        Me.txt_password.Location = New System.Drawing.Point(394, 160)
         Me.txt_password.Name = "txt_password"
-        Me.txt_password.Size = New System.Drawing.Size(159, 29)
+        Me.txt_password.Size = New System.Drawing.Size(188, 29)
         Me.txt_password.TabIndex = 11
         '
         'PictureBox1
@@ -115,6 +119,7 @@ Partial Class FormLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlText
         Me.ClientSize = New System.Drawing.Size(612, 371)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.txt_password)
@@ -124,6 +129,7 @@ Partial Class FormLogin
         Me.Controls.Add(Me.txt_user)
         Me.Controls.Add(Me.lbl_user)
         Me.Controls.Add(Me.lbl_titulo)
+        Me.ForeColor = System.Drawing.SystemColors.Control
         Me.Name = "FormLogin"
         Me.Text = "Inicio de Sesion"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
