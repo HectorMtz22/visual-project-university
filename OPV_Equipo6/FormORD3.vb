@@ -23,7 +23,13 @@
 
     Private Sub BtnCompletar_Click(sender As Object, e As EventArgs) Handles btncompletar.Click
         If lsttareas.SelectedIndex >= 0 Then
-            lsttareas.Items(lsttareas.SelectedIndex) = "Completado: " & lsttareas.Items(lsttareas.SelectedIndex)
+            Dim tarea = lsttareas.Items(lsttareas.SelectedIndex).ToString()
+            Dim value = InStr(tarea, "Completado")
+            If value = 0 Then
+                lsttareas.Items(lsttareas.SelectedIndex) = "Completado: " & lsttareas.Items(lsttareas.SelectedIndex)
+            Else
+                MessageBox.Show("La tarea ya ha sido completada.")
+            End If
         Else
             MessageBox.Show("Seleccione una tarea para marcar como completada.")
         End If
