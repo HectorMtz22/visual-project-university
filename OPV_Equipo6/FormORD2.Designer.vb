@@ -37,6 +37,7 @@ Partial Class FormORD2
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label3.Location = New System.Drawing.Point(279, 114)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(109, 24)
@@ -47,6 +48,7 @@ Partial Class FormORD2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label2.Location = New System.Drawing.Point(53, 114)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(65, 24)
@@ -57,7 +59,8 @@ Partial Class FormORD2
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(146, 37)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label1.Location = New System.Drawing.Point(133, 41)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(275, 29)
         Me.Label1.TabIndex = 3
@@ -82,28 +85,37 @@ Partial Class FormORD2
         '
         'btnconvertir
         '
+        Me.btnconvertir.BackColor = System.Drawing.Color.Lavender
+        Me.btnconvertir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnconvertir.FlatAppearance.BorderSize = 0
+        Me.btnconvertir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnconvertir.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnconvertir.Location = New System.Drawing.Point(372, 221)
         Me.btnconvertir.Name = "btnconvertir"
         Me.btnconvertir.Size = New System.Drawing.Size(135, 31)
         Me.btnconvertir.TabIndex = 13
         Me.btnconvertir.Text = "Convertir"
-        Me.btnconvertir.UseVisualStyleBackColor = True
+        Me.btnconvertir.UseVisualStyleBackColor = False
         '
         'btn_menu
         '
+        Me.btn_menu.BackColor = System.Drawing.Color.Lavender
+        Me.btn_menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btn_menu.FlatAppearance.BorderSize = 0
+        Me.btn_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_menu.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_menu.Location = New System.Drawing.Point(363, 262)
         Me.btn_menu.Name = "btn_menu"
         Me.btn_menu.Size = New System.Drawing.Size(144, 31)
         Me.btn_menu.TabIndex = 14
         Me.btn_menu.Text = "Menú principal"
-        Me.btn_menu.UseVisualStyleBackColor = True
+        Me.btn_menu.UseVisualStyleBackColor = False
         '
         'rb_cel_to_far
         '
         Me.rb_cel_to_far.AutoSize = True
         Me.rb_cel_to_far.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rb_cel_to_far.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.rb_cel_to_far.Location = New System.Drawing.Point(57, 226)
         Me.rb_cel_to_far.Name = "rb_cel_to_far"
         Me.rb_cel_to_far.Size = New System.Drawing.Size(207, 26)
@@ -117,6 +129,7 @@ Partial Class FormORD2
         Me.rb_far_to_cel.AutoCheck = False
         Me.rb_far_to_cel.AutoSize = True
         Me.rb_far_to_cel.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rb_far_to_cel.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.rb_far_to_cel.Location = New System.Drawing.Point(57, 262)
         Me.rb_far_to_cel.Name = "rb_far_to_cel"
         Me.rb_far_to_cel.Size = New System.Drawing.Size(207, 26)
@@ -129,7 +142,8 @@ Partial Class FormORD2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(577, 317)
+        Me.BackColor = System.Drawing.Color.MediumSlateBlue
+        Me.ClientSize = New System.Drawing.Size(542, 317)
         Me.Controls.Add(Me.rb_far_to_cel)
         Me.Controls.Add(Me.rb_cel_to_far)
         Me.Controls.Add(Me.btn_menu)
