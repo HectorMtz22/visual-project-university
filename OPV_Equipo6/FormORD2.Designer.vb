@@ -120,13 +120,11 @@ Partial Class FormORD2
         Me.rb_cel_to_far.Name = "rb_cel_to_far"
         Me.rb_cel_to_far.Size = New System.Drawing.Size(207, 26)
         Me.rb_cel_to_far.TabIndex = 15
-        Me.rb_cel_to_far.TabStop = True
         Me.rb_cel_to_far.Text = "Celsius -> Fahrenheit"
         Me.rb_cel_to_far.UseVisualStyleBackColor = True
         '
         'rb_far_to_cel
         '
-        Me.rb_far_to_cel.AutoCheck = False
         Me.rb_far_to_cel.AutoSize = True
         Me.rb_far_to_cel.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rb_far_to_cel.ForeColor = System.Drawing.SystemColors.ControlLightLight
@@ -134,7 +132,6 @@ Partial Class FormORD2
         Me.rb_far_to_cel.Name = "rb_far_to_cel"
         Me.rb_far_to_cel.Size = New System.Drawing.Size(207, 26)
         Me.rb_far_to_cel.TabIndex = 16
-        Me.rb_far_to_cel.TabStop = True
         Me.rb_far_to_cel.Text = "Fahrenheit -> Celsius"
         Me.rb_far_to_cel.UseVisualStyleBackColor = True
         '
