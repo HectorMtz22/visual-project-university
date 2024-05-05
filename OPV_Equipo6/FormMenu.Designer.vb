@@ -172,7 +172,7 @@ Partial Class FormMenu
         Me.Controls.Add(Me.PictureBox1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "FormMenu"
-        Me.Text = "Examen de Medio Curso"
+        Me.Text = "Examen Ordinario"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
