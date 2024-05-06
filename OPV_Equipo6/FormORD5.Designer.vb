@@ -223,7 +223,7 @@ Partial Class FormORD5
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.ClientSize = New System.Drawing.Size(861, 691)
+        Me.ClientSize = New System.Drawing.Size(609, 691)
         Me.Controls.Add(Me.btn_menu)
         Me.Controls.Add(Me.TxtBuscar)
         Me.Controls.Add(Me.Label7)
