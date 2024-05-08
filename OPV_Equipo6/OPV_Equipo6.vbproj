@@ -164,6 +164,12 @@
     <Compile Include="FormPIA4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormPIA5.Designer.vb">
+      <DependentUpon>FormPIA5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPIA5.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -210,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPIA4.resx">
       <DependentUpon>FormPIA4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPIA5.resx">
+      <DependentUpon>FormPIA5.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
