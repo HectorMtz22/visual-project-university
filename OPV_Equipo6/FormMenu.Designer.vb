@@ -38,12 +38,12 @@ Partial Class FormMenu
         Me.PIAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.lbl_menu = New System.Windows.Forms.Label()
         Me.btn_exit = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem6 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem7 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -157,6 +157,36 @@ Partial Class FormMenu
         Me.btn_exit.Text = "Salir"
         Me.btn_exit.UseVisualStyleBackColor = True
         '
+        'ToolStripMenuItem3
+        '
+        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(206, 22)
+        Me.ToolStripMenuItem3.Text = "1 Calculadora de Propina"
+        '
+        'ToolStripMenuItem4
+        '
+        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(206, 22)
+        Me.ToolStripMenuItem4.Text = "2 Libro de Gastos"
+        '
+        'ToolStripMenuItem5
+        '
+        Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(206, 22)
+        Me.ToolStripMenuItem5.Text = "3"
+        '
+        'ToolStripMenuItem6
+        '
+        Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
+        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(206, 22)
+        Me.ToolStripMenuItem6.Text = "4"
+        '
+        'ToolStripMenuItem7
+        '
+        Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
+        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(206, 22)
+        Me.ToolStripMenuItem7.Text = "5"
+        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.OPV_Equipo6.My.Resources.Resources.portada
@@ -166,36 +196,6 @@ Partial Class FormMenu
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
-        '
-        'ToolStripMenuItem3
-        '
-        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(180, 22)
-        Me.ToolStripMenuItem3.Text = "1"
-        '
-        'ToolStripMenuItem4
-        '
-        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
-        Me.ToolStripMenuItem4.Text = "2 Libro de Gastos"
-        '
-        'ToolStripMenuItem5
-        '
-        Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(180, 22)
-        Me.ToolStripMenuItem5.Text = "3"
-        '
-        'ToolStripMenuItem6
-        '
-        Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
-        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(180, 22)
-        Me.ToolStripMenuItem6.Text = "4"
-        '
-        'ToolStripMenuItem7
-        '
-        Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(180, 22)
-        Me.ToolStripMenuItem7.Text = "5"
         '
         'FormMenu
         '
