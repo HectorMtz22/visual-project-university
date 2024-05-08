@@ -179,13 +179,13 @@ Partial Class FormMenu
         '
         Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
         Me.ToolStripMenuItem6.Size = New System.Drawing.Size(206, 22)
-        Me.ToolStripMenuItem6.Text = "4"
+        Me.ToolStripMenuItem6.Text = "4 Edad"
         '
         'ToolStripMenuItem7
         '
         Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
         Me.ToolStripMenuItem7.Size = New System.Drawing.Size(206, 22)
-        Me.ToolStripMenuItem7.Text = "5"
+        Me.ToolStripMenuItem7.Text = "5 Contraseña"
         '
         'PictureBox1
         '
