@@ -22,9 +22,13 @@ Partial Class FormPIA3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.btn_menu = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.dgv_eventos = New System.Windows.Forms.DataGridView()
         Me.txt_titulo = New System.Windows.Forms.TextBox()
         Me.txttotalgastos = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -41,7 +45,7 @@ Partial Class FormPIA3
         Me.Hora = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Título = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Descripción = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgv_eventos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label4
@@ -65,14 +69,16 @@ Partial Class FormPIA3
         Me.btn_menu.Text = "Menú principal"
         Me.btn_menu.UseVisualStyleBackColor = True
         '
-        'DataGridView1
+        'dgv_eventos
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Fecha, Me.Hora, Me.Título, Me.Descripción})
-        Me.DataGridView1.Location = New System.Drawing.Point(26, 238)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(493, 273)
-        Me.DataGridView1.TabIndex = 16
+        Me.dgv_eventos.BackgroundColor = System.Drawing.SystemColors.ButtonShadow
+        Me.dgv_eventos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgv_eventos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Fecha, Me.Hora, Me.Título, Me.Descripción})
+        Me.dgv_eventos.GridColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.dgv_eventos.Location = New System.Drawing.Point(26, 238)
+        Me.dgv_eventos.Name = "dgv_eventos"
+        Me.dgv_eventos.Size = New System.Drawing.Size(493, 273)
+        Me.dgv_eventos.TabIndex = 16
         '
         'txt_titulo
         '
@@ -192,22 +198,30 @@ Partial Class FormPIA3
         '
         'Fecha
         '
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        Me.Fecha.DefaultCellStyle = DataGridViewCellStyle1
         Me.Fecha.HeaderText = "Fecha"
         Me.Fecha.Name = "Fecha"
         '
         'Hora
         '
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
+        Me.Hora.DefaultCellStyle = DataGridViewCellStyle2
         Me.Hora.HeaderText = "Hora"
         Me.Hora.Name = "Hora"
         '
         'Título
         '
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        Me.Título.DefaultCellStyle = DataGridViewCellStyle3
         Me.Título.HeaderText = "Título"
         Me.Título.Name = "Título"
         '
         'Descripción
         '
         Me.Descripción.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        Me.Descripción.DefaultCellStyle = DataGridViewCellStyle4
         Me.Descripción.HeaderText = "Descripción"
         Me.Descripción.Name = "Descripción"
         '
@@ -225,7 +239,7 @@ Partial Class FormPIA3
         Me.Controls.Add(Me.btn_limpiar)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.btn_menu)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.dgv_eventos)
         Me.Controls.Add(Me.txt_titulo)
         Me.Controls.Add(Me.txttotalgastos)
         Me.Controls.Add(Me.Label3)
@@ -237,7 +251,7 @@ Partial Class FormPIA3
         Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "FormPIA3"
         Me.Text = "FormPIA3"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgv_eventos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -245,7 +259,7 @@ Partial Class FormPIA3
 
     Friend WithEvents Label4 As Label
     Friend WithEvents btn_menu As Button
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents dgv_eventos As DataGridView
     Friend WithEvents txt_titulo As TextBox
     Friend WithEvents txttotalgastos As TextBox
     Friend WithEvents Label3 As Label
