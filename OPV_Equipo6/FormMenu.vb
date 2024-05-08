@@ -74,4 +74,9 @@
         FormPIA5.Show()
         Me.Hide()
     End Sub
+
+    Private Sub ToolStripMenuItem5_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem5.Click
+        FormPIA3.Show()
+        Me.Hide()
+    End Sub
 End Class

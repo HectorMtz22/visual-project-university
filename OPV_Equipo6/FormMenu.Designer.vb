@@ -173,7 +173,7 @@ Partial Class FormMenu
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
         Me.ToolStripMenuItem5.Size = New System.Drawing.Size(206, 22)
-        Me.ToolStripMenuItem5.Text = "3"
+        Me.ToolStripMenuItem5.Text = "3 Agenda"
         '
         'ToolStripMenuItem6
         '
