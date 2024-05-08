@@ -158,6 +158,12 @@
     <Compile Include="FormPIA2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormPIA3.Designer.vb">
+      <DependentUpon>FormPIA3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPIA3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormPIA4.Designer.vb">
       <DependentUpon>FormPIA4.vb</DependentUpon>
     </Compile>
@@ -213,6 +219,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPIA2.resx">
       <DependentUpon>FormPIA2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPIA3.resx">
+      <DependentUpon>FormPIA3.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPIA4.resx">
       <DependentUpon>FormPIA4.vb</DependentUpon>
